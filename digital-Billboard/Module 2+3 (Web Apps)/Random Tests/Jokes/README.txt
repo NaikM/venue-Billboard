@@ -1,0 +1,1 @@
+Playing around with MySQL and creating a catalogue of jokes. 

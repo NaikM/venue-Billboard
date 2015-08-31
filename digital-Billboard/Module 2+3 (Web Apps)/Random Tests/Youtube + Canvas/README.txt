@@ -1,0 +1,1 @@
+Attempting to take snapshots of a video playing on the webpage but not available on the local filesystem of the server.

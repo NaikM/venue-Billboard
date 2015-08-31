@@ -1,0 +1,42 @@
+<!-- attempts to grab a snapshot from the webpage video sans syncing with desktop video -->
+<!DOCTYPE html>
+<html>
+	<link type = "text/css" rel = "stylesheet" href = "stylesheet.css" />
+	<body>
+
+	<h2>billboard.com</h2>
+
+	<!-- button that triggers getCurTime() -->
+	<button id="button" onclick="getCurTime()" type="button">Snapshot</button>
+
+	<video id="myVideo" width = "500" height = "500" controls loop>
+		<source src="bunny.webm" type="video/webm">
+	Not supported
+	</video>
+	
+	<script>
+	var vid = document.getElementById("myVideo"); 
+	var time = 2;
+		
+		//transfers time of capturing the snapshot (for testing purposes is 2)to index.php
+		function getCurTime(){ 
+    			time = (vid.currentTime);
+			//window.location.href = "http://localhost/WEB/index.php?time=" + time;
+			
+			var win = window.open("http://localhost/WEB/index.php?time=" + time, "_blank");
+			win.focus();
+			getFrame();
+		} 
+
+	</script>	
+	
+	</body>
+
+</html>
+
+
+
+
+
+
+

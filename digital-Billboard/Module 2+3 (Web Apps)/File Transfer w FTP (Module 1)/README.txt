@@ -1,0 +1,1 @@
+Attempting to upload pictures from the client to the server using FTP protocol. Unfortunately, downloading pictures from the server to the client did not work.

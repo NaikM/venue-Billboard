@@ -1,0 +1,1 @@
+Viewing images saved on the local filesystem on the webpage.

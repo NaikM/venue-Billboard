@@ -1,0 +1,1 @@
+Uploading image files from the client to the server using FTP. Cataloguing the names of the images in a MySQL database.
