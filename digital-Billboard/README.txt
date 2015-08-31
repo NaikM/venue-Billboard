@@ -33,7 +33,7 @@ Tools Used
 
 1. Server Side Web Languages: PHP
 2. Other Web Langauges: HTML, JavaScript
-3. Video Editting Tools: FFMPEG.php 
+3. Video Editting Tools: FFMPEG php wrapper
 	  
 
 
